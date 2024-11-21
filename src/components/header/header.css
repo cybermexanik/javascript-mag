@@ -1,0 +1,50 @@
+.header_row{
+    display: flex;
+    column-gap: 8px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_logo{
+    display: flex;
+    align-items: center;
+}
+
+.header_cat ul{
+    display: flex;
+    justify-content: center;
+    column-gap: 24px;
+    padding: 24px;
+}
+
+.header_zagolovok{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #5A6D57;
+    color: white;
+    height: 30px;
+}
+
+.header_zagolovok p{
+    justify-content: space-between;
+    background: #5A6D57;
+    text-align: center;
+    color: white;
+    height: 30px;
+    letter-spacing: 0.8px;
+    line-height: 14.63px;
+    font-size: 12px;
+    padding: 8px;
+}
+
+.header_nav{
+    align-items: center;
+}
+
+.nav_item{
+    margin-right: 24px;
+}
+.nav_item:last-child {
+    margin-right: 0;
+}

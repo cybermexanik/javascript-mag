@@ -1,0 +1,17 @@
+:root{
+    --textColor: #000;
+    --accent: #1050da;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: var(--textColor);
+}
+
+.container{
+    justify-content: space-between;
+    max-width: 1470px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+

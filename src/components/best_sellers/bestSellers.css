@@ -1,0 +1,43 @@
+.sellers {
+    padding-bottom: 157px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.header_name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px; 
+}
+
+.header_title {
+    font-size: 32px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    line-height: 44.8px;
+    margin: 0;
+}
+
+.sellers_btn {
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    background-color: transparent;
+    border: 1px solid #000;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.sellers_btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.sellers_cards {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 24px;
+}
