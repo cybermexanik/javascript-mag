@@ -5,11 +5,17 @@ const wearRouter = require('./wearRouter')
 const roleRouter = require('./roleRouter')
 const deliveruRouter = require('./deliveryRouter')
 const cartRouter = require('./cartRouter')
+const typeRouter = require('./typeRouter')
+const sizeRouter = require('./sizeRouter')
+const composeRouter = require('./composeRouter')
 
 router.use('/user', userRouter)
 router.use('/cart', cartRouter)
 router.use('/wear', wearRouter)
 router.use('/delivery', deliveruRouter)
 router.use('/role', roleRouter)
+router.use('/type', typeRouter)
+router.use('/size', sizeRouter)
+router.use('/compose', composeRouter)
 
 module.exports = router

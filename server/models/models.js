@@ -20,7 +20,7 @@ const Role = sequelize.define('roles',{
 const Cart = sequelize.define('cart',{
     id: {type: DataTypes.INTEGER, primaryKey: true, autoIncrement: true},
     quantity:{type: DataTypes.BIGINT},
-    order_number: {type: DataTypes.BIGINT, allowNull: false},
+    order_number: {type: DataTypes.BIGINT},
     order_status: {type: DataTypes.BOOLEAN},
 })
 
@@ -34,7 +34,28 @@ const Wear = sequelize.define('wear',{
     id: {type: DataTypes.INTEGER, primaryKey: true, autoIncrement: true},
     wear_name: {type: DataTypes.STRING, unique: true, allowNull: false},
     cost: {type:DataTypes.BIGINT, allowNull: false},
-    img: {type: DataTypes.STRING, allowNull: false}
+    img: {type: DataTypes.STRING, allowNull: false},
+    typeId: { 
+        type: DataTypes.INTEGER, 
+        references: {
+            model: 'wear_types', 
+            key: 'id'
+        }
+    },
+    sizeId: { 
+        type: DataTypes.INTEGER, 
+        references: {
+            model: 'wear_sizes',
+            key: 'id'
+        }
+    },
+    composeId: { 
+        type: DataTypes.INTEGER, 
+        references: {
+            model: 'wear_compositions',
+            key: 'id'
+        }
+    }
 })
 
 const Wear_Composition = sequelize.define('wear_composition',{
