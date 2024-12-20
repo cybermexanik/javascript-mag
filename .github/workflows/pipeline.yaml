@@ -3,10 +3,10 @@ name: Check code style
 on:
   push:
     branches:
-      - prod
+      - prodik
   pull_request:
     branches:
-      - prod
+      - prodik
 
 jobs:
   checkcode:
