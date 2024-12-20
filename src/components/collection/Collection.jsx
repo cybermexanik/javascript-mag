@@ -6,6 +6,7 @@ import DressesImg from './../../fashion_images/CollectionThree.png';
 import PantsImg from './../../fashion_images/CollectionFour.png';
 
 function Collection() {
+
     return (
        <section className='collection'>
         <div className="collection_container">
@@ -37,6 +38,7 @@ function Collection() {
         </div>
     </section> 
     );
+    
 }
 
 export default Collection;

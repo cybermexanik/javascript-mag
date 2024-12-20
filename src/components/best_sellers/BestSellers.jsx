@@ -5,9 +5,9 @@ import bestThree from './../../fashion_images/bestThree.jpg'
 import Card from './../card/Card'
 
 
-function Best_sellers(){
-    return(
+function BestSellers(){
 
+    return(
         <section className='sellers'>
             <div className='container'>
                 <div className="header_name">
@@ -23,8 +23,8 @@ function Best_sellers(){
             </div>
         </div>
         </section>
-    )
-    
+    );
+
 }
 
-export default Best_sellers;
+export default BestSellers;
