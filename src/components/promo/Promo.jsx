@@ -1,13 +1,8 @@
 import './promo.css'
 import promoImg from './../../fashion_images/promoImg.png';
 
-
 const Promo = () => {
-
-    
     return ( 
-
-
     <section className='promo'>
         <div className='container_promo'>
             <div className='promo_content'>
@@ -25,9 +20,6 @@ const Promo = () => {
         </div>
     </section>
     );
-
-
 }
-
 
 export default Promo;
