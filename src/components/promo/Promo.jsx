@@ -1,6 +1,7 @@
 import './promo.css'
 import promoImg from './../../fashion_images/promoImg.png';
 
+
 const Promo = () => {
     return ( 
     <section className="promo">
@@ -21,5 +22,6 @@ const Promo = () => {
     </section>
     );
 }
+
  
 export default Promo;
