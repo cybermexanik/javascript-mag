@@ -7,6 +7,7 @@ import Card from './../card/Card'
 
 function Best_sellers(){
     return(
+
         <section className='sellers'>
             <div className='container'>
                 <div className="header_name">
@@ -23,6 +24,7 @@ function Best_sellers(){
         </div>
         </section>
     )
+    
 }
 
 export default Best_sellers;
