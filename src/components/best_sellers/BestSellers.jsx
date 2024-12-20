@@ -5,14 +5,6 @@ import bestThree from './../../fashion_images/bestThree.jpg'
 import Card from './../card/Card'
 
 
-
-
-
-
-
-
-
-
 function Best_sellers(){
     return(
         <section className='sellers'>
