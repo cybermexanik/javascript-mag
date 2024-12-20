@@ -4,6 +4,15 @@ import bestTwo from './../../fashion_images/bestTwo.jpg'
 import bestThree from './../../fashion_images/bestThree.jpg'
 import Card from './../card/Card'
 
+
+
+
+
+
+
+
+
+
 function Best_sellers(){
     return(
         <section className='sellers'>
